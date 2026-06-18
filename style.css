@@ -1,205 +1,126 @@
 *{
-
-    padding:0;
-
+    padding: 0;
     margin: 0;
-
 }
 
 body{
-
-   
-
-  font-family: "Young Serif", serif;
-
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .container{
-
     padding: 50px;
-
 }
 
- 
-
-.section-one{
-
+.section-1{
     background-color: black;
-
-    color: beige;
-
-    padding: 20px;
-
-}
-
-.section-one__contact{
-
-background-color: orange;
-
-color: beige;
-
-text-decoration: none;
-
-padding-left: 10px;
-
-padding-right: 10px;
-
-padding-top: 5px;
-
-padding-bottom: 5px;
-
-display: inline-block;
-
-margin-top: 5px;
-
-}
-
-.section-one__name{
-
-    font-size: 30px;
-
-}
-
- 
-
-.section-one__role{
-
-    font-size: 20px;
-
-    margin-top: 5px;
-
-}
-
-.section-two, .section-three, .section-four, .section-five{
-
-margin-top: 20px;
-
-}
-
- 
-
-.section-two__description, .section-thre__description, .section-four__description, .section-five__description{
-
-margin-top: 10px;
-
-}
-
-.section-five{
-
-    background-color: black;
-
     color: white;
-
     padding: 20px;
-
 }
 
- 
-
-.section-five__title a{
-
-color: aqua;
-
+.section-1__name{
+    font-size: 60px;
 }
 
- 
+.section-1__role{
+    font-size: 30px;
+    margin-top: 10px;
+}
 
-.section-three li, .section-four li{
+.section-1__contact{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
 
+.section-2,
+.section-3,
+.section-4,
+.section-5{
+    margin-top: 20px;
+}
+
+.section-2__desc,
+.section-3__desc,
+.section-4__desc,
+.section-5__desc{
+    margin-top: 10px;
+}
+
+.section-3 li,
+.section-4 li{
     list-style: none;
-
 }
 
-.section-three{
+.section-3{
+    background-color: #6462FD;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
 
-    background-color: #6462fD;
-
+.section-4{
+    background-color: #FE7517;
     color: black;
-
     padding: 20px;
-
     display: inline-block;
-
     height: 200px;
-
-    border-radius:10px;
-
+    border-radius: 10px;
     vertical-align: top;
-
 }
 
-.section-four{
-
-    background-color: #fe7517;
-
-    color:black;
-
+.section-5{
+    background-color: black;
+    color: white;
     padding: 20px;
+}
 
-    display: inline-block;
-
-    height: 200px;
-
-    border-radius:10px ;
-
-    vertical-align: top;
-
+.section-5__title a{
+    color: skyblue;
 }
 
 .contact-form{
-
     margin-top: 20px;
-
 }
 
- 
-
-.contact-form__input,.contact-form__textarea, .contact-form__submit{
-
+.contact-form table{
     margin-top: 10px;
-
 }
 
- 
+.contact-form__input,
+.contact-form__textarea,
+.contact-form__submit{
+    margin-top: 10px;
+}
 
 .contact-form__input{
-
     padding: 10px;
-
     border: none;
-
-    border-bottom:solid black ;
-
+    border-bottom: 1px solid black;
 }
-
- 
 
 .contact-form__textarea{
-
     padding: 10px;
-
-    border: none;
-
-    border:solid black ;
-
+    border: 1px solid black;
+    width: 250px;
+    height: 100px;
 }
 
- 
-
 .contact-form__submit{
-
-    padding-top: 10px;
-
-    padding-bottom: 10px;
-
-    padding-left: 20px;
-
-    padding-right: 20px;
-
-    background-color: rgb(0, 221, 255);
-
+    padding: 10px 20px;
+    background-color: orangered;
     color: black;
-
     border: none;
+    cursor: pointer;
+}
 
+.contact-form__submit:hover{
+    opacity: 0.8;
 }
